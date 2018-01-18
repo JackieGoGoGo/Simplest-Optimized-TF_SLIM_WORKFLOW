@@ -1,0 +1,2 @@
+# Optimized-TF_SLIM_WORKFLOW-TF_SLIM-
+TF_SLIM主要用于图像分类的迁移学习（transfer learning），我在官方TF_SLIM的基础上删除很多跟新数据无关的脚本，并对代码进行了修改，形成了一个较清晰的通用迁移学习脚本库，我会在 README中提供较清晰的使用方法。
