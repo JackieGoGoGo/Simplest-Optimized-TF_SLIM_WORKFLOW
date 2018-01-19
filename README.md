@@ -3,4 +3,4 @@ TF_SLIM主要用于图像分类的迁移学习（transfer learning），官网�
 
 我们来过一下这个异常简单的流程：
 1.
-！[https://github.com/JackieGoGoGo/Simple-Optimized-TF_SLIM_WORKFLOW/blob/master/Readme_Pics/easier_TF-SLIM_workflow.png]
+！[sdfa]( Simple-Optimized-TF_SLIM_WORKFLOW/Readme_Pics/easier_TF-SLIM_workflow.png )
