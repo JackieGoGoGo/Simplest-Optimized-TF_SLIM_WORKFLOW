@@ -3,6 +3,6 @@ TF_SLIM主要用于图像分类的迁移学习（transfer learning），官网�
 
 我们来过一下这个异常简单的流程：
 1.
-！[sdfa](http://image.baidu.com/search/detail?z=0&word=%E8%97%8F%E5%9C%B0%E5%85%89%E5%BD%B1%E5%B0%8F%E5%BC%A0&hs=0&pn=0&spn=0&di=0&pi=51007244773&tn=baiduimagedetail&is=0%2C0&ie=utf-8&oe=utf-8&cs=2285654232%2C3843948592&os=&simid=&adpicid=0&lpn=0&fm=&sme=&cg=&bdtype=-1&oriquery=&objurl=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F503d269759ee3d6db032f61b48166d224e4ade6e.jpg&fromurl=&gsm=&catename=pcindexhot)
+![sdfa](http://image.baidu.com/search/detail?z=0&word=%E8%97%8F%E5%9C%B0%E5%85%89%E5%BD%B1%E5%B0%8F%E5%BC%A0&hs=0&pn=0&spn=0&di=0&pi=51007244773&tn=baiduimagedetail&is=0%2C0&ie=utf-8&oe=utf-8&cs=2285654232%2C3843948592&os=&simid=&adpicid=0&lpn=0&fm=&sme=&cg=&bdtype=-1&oriquery=&objurl=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F503d269759ee3d6db032f61b48166d224e4ade6e.jpg&fromurl=&gsm=&catename=pcindexhot)
 
 ![ABC](http://www.baidu.com/img/bdlogo.png)
