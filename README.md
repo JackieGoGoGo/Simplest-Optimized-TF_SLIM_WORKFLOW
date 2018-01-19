@@ -1,4 +1,5 @@
 # Simpler&Easier_TF-SLIM_WORKFLOW(最简单的TF_SLIM无脑使用流程)
+
 TF_SLIM主要用于图像分类的迁移学习（transfer learning），官网上的TF-SLIM库里有很多与新数据处理无关的脚本，当用自己的数据进行训练时也要对原有脚本做很多调整，所以我在官方TF_SLIM库的基础上删除很多跟新数据训练无关的脚本，并对剩下代码进行了修改，形成了一套通用迁移学习脚本库，你甚至不需要修改任何参数，只要按照我的要求把新数据图片及想要用于迁移学习的model放到指定文件夹里，即可无脑开始高大上的迁移学习！
 
 对！你没有听错，你需要做的就只有那么多！就问你开不开心、刺不刺激、惊不惊喜蛤蛤蛤！
@@ -30,6 +31,7 @@ TF_SLIM主要用于图像分类的迁移学习（transfer learning），官网�
 ![ABC](https://github.com/JackieGoGoGo/Simple-Optimized-TF_SLIM_WORKFLOW/blob/master/Readme_Pics/converted.png)
 
 6.我们可以开始执行train_image_classifier.py训练啦！！！执行下方的指令即可开始训练，当然如果你需要精细化地调参训练，可以详细看train_image_classifier.py中能够训练的参数。
+
 python train_image_classifier.py --dataset_name=myproject --dataset_dir=./MyProject --train_dir=MyProject/train_logs/inception_v3 --dataset_split_name=train --model_name=inception_v3 --checkpoint_path=./MyProject/transfer_model/inception_v3.ckpt --checkpoint_exclude_scopes=InceptionV3/Logits,InceptionV3/AuxLogits --trainable_scopes=InceptionV3/Logits,InceptionV3/AuxLogits --clone_on_cpu=True
 
 ![ABC](https://github.com/JackieGoGoGo/Simple-Optimized-TF_SLIM_WORKFLOW/blob/master/Readme_Pics/training.png)
